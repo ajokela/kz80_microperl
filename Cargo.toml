@@ -1,0 +1,16 @@
+[package]
+name = "kz80_microperl"
+version = "0.1.0"
+edition = "2021"
+description = "A minimal Perl interpreter and compiler for RetroShield Z80"
+license = "BSD-3-Clause"
+readme = "README.md"
+keywords = ["perl", "z80", "interpreter", "compiler", "retrocomputing"]
+categories = ["compilers", "emulators", "command-line-utilities"]
+authors = ["Alex Jokela"]
+
+[dependencies]
+
+[[bin]]
+name = "microperl"
+path = "src/main.rs"
