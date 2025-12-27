@@ -5,6 +5,7 @@ edition = "2021"
 description = "A minimal Perl interpreter and compiler for RetroShield Z80"
 license = "BSD-3-Clause"
 readme = "README.md"
+repository = "https://github.com/ajokela/kz80_microperl"
 keywords = ["perl", "z80", "interpreter", "compiler", "retrocomputing"]
 categories = ["compilers", "emulators", "command-line-utilities"]
 authors = ["Alex Jokela"]
